@@ -155,7 +155,12 @@ h2 {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
+.card-img-top {
+  height: 180px;
+  width: 100%;
+  object-fit: fill;
+  display: block; 
+}
 
 .card-body {
   background-color: #a0d3eb;
