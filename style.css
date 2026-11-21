@@ -158,7 +158,7 @@ h2 {
 .card-img-top {
   height: 150px;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   background-color: #a0d3eb;
 }
 
