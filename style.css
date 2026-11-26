@@ -96,18 +96,22 @@ body {
 
 /* Hero section centered content */
 .home-inner {
-  height: 100%;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   color: #fff;
-  text-align: center;
   position: relative;
   z-index: 2;
-  flex-direction: column;
-  padding: 0 1rem;
-  margin-bottom: 2rem;
+  padding: 2rem 1rem;
   animation: fadeIn 2s ease-in-out;
+}
+
+.home-inner .row {
+  width: 100%;
+}
+
+.home-inner .col-12:first-child {
+  text-align: center;
 }
 
 @keyframes fadeIn {
