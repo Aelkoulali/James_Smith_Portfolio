@@ -106,14 +106,6 @@ body {
   animation: fadeIn 2s ease-in-out;
 }
 
-.home-inner .row {
-  width: 100%;
-}
-
-.home-inner .col-12:first-child {
-  text-align: center;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
